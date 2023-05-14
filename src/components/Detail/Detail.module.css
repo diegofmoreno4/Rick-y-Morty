@@ -1,0 +1,130 @@
+.selector {
+  background-image: url("/src/Imagenes/elementos-pantalla-interfaz-usuario-futurista-hud-ui-gui-pantalla-alta-tecnologia_115579-1227-removebg-preview-transformed.png");
+  background-repeat: no-repeat;
+  background-size: 950px;
+  background-position: center;
+  opacity: 0.95;
+  margin: 45px;
+}
+@media only screen and (min-width: 1500px) {
+  .selector {
+    background-size: 1200px;
+    margin: 80px;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+@media only screen and (min-width: 1500px) {
+  .container {
+    height: 600px;
+  }
+}
+
+.imageContainer {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+  height: 230px;
+  box-shadow: 0 0 5px 2px #fff, 0 0 20px 10px #f0f, 0 0 30px 15px #0ff;
+  animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5), 0 0 10px rgba(255, 0, 0, 0.5),
+      0 0 60px rgba(255, 0, 0, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5), 0 0 10px rgba(0, 255, 0, 0.5),
+      0 0 60px rgba(0, 255, 0, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5), 0 0 10px rgba(0, 0, 255, 0.5),
+      0 0 60px rgba(0, 0, 255, 0.5);
+  }
+}
+.detailsContainer {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+@media only screen and (min-width: 1500px) {
+  .detailsContainer {
+    margin-left: -80px;
+    margin-right: 60px;
+    flex-basis: 26%;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .imageContainer {
+    flex-basis: 34%;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .image {
+    height: 280px;
+  }
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: -10px;
+  color: rgb(253, 253, 253);
+}
+.button {
+  min-width: 80px;
+  height: 30px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #2ee034;
+  box-shadow: 0 5px #17500f;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: -125px;
+  margin-left: 154px;
+}
+
+.button:hover {
+  background-color: #56df5d;
+  color: #000000;
+  transform: translateY(-5px);
+}
+
+@media only screen and (min-width: 1500px) {
+  .button {
+    margin-top: -140px;
+    margin-left: 184px;
+    height: 35px;
+  }
+}

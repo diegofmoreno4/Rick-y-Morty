@@ -1,0 +1,80 @@
+.cardItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 11%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
+@media only screen and (min-width: 1500px) {
+  .cardItem {
+    margin-top: 120px;
+  }
+}
+
+.select1 {
+  min-width: 80px;
+  height: 30px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #2ee034;
+  box-shadow: 0 5px #17500f;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: absolute;
+  margin-top: -125px;
+  margin-left: -30px;
+}
+@media only screen and (min-width: 1500px) {
+  .select1 {
+    margin-top: -166px;
+    margin-left: 100px;
+  }
+}
+
+.select1:hover {
+  background-color: #56df5d;
+  color: #000000;
+  transform: translateY(-5px);
+}
+.select2 {
+  min-width: 80px;
+  height: 30px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #2ee034;
+  box-shadow: 0 5px #17500f;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: absolute;
+  margin-top: -125px;
+  margin-left: -200px;
+}
+@media only screen and (min-width: 1500px) {
+  .select2 {
+    margin-top: -166px;
+    margin-left: -60px;
+  }
+}
+
+.select2:hover {
+  background-color: #56df5d;
+  color: #000000;
+  transform: translateY(-5px);
+}

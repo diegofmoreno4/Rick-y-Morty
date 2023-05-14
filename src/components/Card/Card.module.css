@@ -1,0 +1,84 @@
+.cardItem {
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  width: 180px;
+  height: 280px;
+  background-color: #0b1324;
+  border-radius: 3%;
+  position: relative;
+  overflow: hidden;
+  border-color: #ffffff;
+  border-width: 10%;
+}
+
+@media only screen and (min-width: 1500px) {
+  .cardItem {
+    margin: 10px;
+    width: 220px;
+    height: 320px;
+  }
+}
+.cardItem h2 {
+  font-size: 80%;
+  object-fit: cover;
+  margin: 1%;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-weight: 400;
+  
+}
+.buttonClose {
+  color: #ffffff;
+  background:rgb(161, 20, 20);
+  position: absolute;
+  left: 85%;
+  bottom: 1%;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 50%;
+}
+.buttonFav {
+  position: absolute;
+  left: 80%;
+  bottom: 90%;
+  cursor: pointer;
+font-size: 20px;
+  background: transparent;
+  border-color: transparent;
+}
+@media only screen and (min-width: 1500px) {
+  .buttonFav {
+    left: 83%;
+  bottom: 92%;
+  }
+}
+
+.buttonFav:hover {
+  transform: translateY(-1px);
+}
+
+.cardItem h1 {
+  color: rgb(255, 255, 255);
+  text-align: left;
+  margin: 2.5%;
+  font-size: 110%;
+  font-weight: 700;
+}
+.img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  opacity: 1;
+  border-radius: 3%;
+  
+}
+
+.cardItem:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+    box-shadow: 5px 11px 15px rgba(54, 150, 50, 0.836);
+    transition: transform 0.3s ease-in-out;
+  }

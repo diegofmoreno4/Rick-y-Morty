@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  background: url(./Imagenes/Rick-and-Morty.png);
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: relative;
+  background-position-x: center;
+  background-position-y: 65px;
+}
+
+body {
+  background: url(./Imagenes/HauntingFilthyAmericanbobtail-size_restricted.gif);
+}
